@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teams Generator</title>
+    <script  type="text/javascript" src="main.js"></script>
+    <style>
+        .teams {
+          display: flex;
+        }
+      </style>
+</head>
+<body>
+    <div>
+        <label>Lista giocatori</label>
+        <ul class="list-player"></ul>
+    </div>   
+    <div>
+        <label>Quante squadre vuoi fare?</label>
+        <input class="input-number-teams" type="number" min="2" max="5">
+        <button class="btn-make-teams">Genera squadre</button>
+    </div> 
+
+    <div class="teams_wrapper">
+        <label>Squadre</label>
+        <div class="teams"></div>
+    </div>
+</body>
+</html>
